@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/asfalt.png);
+    overflow: hidden;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+div {
+    height: 25%;
+}
+
+div.motor i {
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    transition: 3s linear;
+}
+
+div.car i {
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    transition: 5s linear;
+}
+
+div.people i {
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    transition: 9s linear;
+}
+
+div.truck i {
+    position: absolute;
+    top: 85%;
+    left: 0%;
+    transition: 7s linear;
+}
+
+button {
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+
+}
+
+div.start i {
+    left: 90%;
+
+}
